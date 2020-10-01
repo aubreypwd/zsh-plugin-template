@@ -18,7 +18,7 @@ Install the package on `master`:
 antigen bundle github-username/{$plugin-slug}
 ```
 
-...and contribute upstream by working in `$HOME/.antigen/bundles/{$plugin-slug}`.
+...and contribute upstream by working in `$HOME/.antigen/bundles/github-username/{$plugin-slug}`.
 
 ---
 

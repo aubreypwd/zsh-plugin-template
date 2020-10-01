@@ -5,7 +5,7 @@
 # - [ ] Write the damn thing!
 
 ###
- # ${plugin-slug}
+ # My Plugin
  #
  # @since 1.0.0
  ##
