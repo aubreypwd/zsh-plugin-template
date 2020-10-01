@@ -1,12 +1,12 @@
 #!/bin/zsh
 
-if [[ -x $(command -v brew) ]] && [[ ! -x $(command -v BREWCOMMAND) ]]; then
-	brew reinstall BREWCOMMAND
+if [[ -x $(command -v brew) ]] && [[ ! -x $(command -v <brewcommand>) ]]; then
+	brew reinstall <brewcommand>
 fi
 
-if ! [[ -x $(command -v BREWCOMMAND) ]]; then
-	echo "Please install BREWCOMMAND:";
-	echo "\tHomebrew: brew install BREWCOMMAND"
+if ! [[ -x $(command -v <brewcommand>) ]]; then
+	echo "Please install <brewcommand>:";
+	echo "\tHomebrew: brew install <brewcommand>"
 fi
 
 ###
