@@ -1,16 +1,19 @@
 #!/bin/zsh
 
-if [[ -x $(command -v brew) ]] && [[ ! -x $(command -v <brewcommand>) ]]; then
-	brew reinstall <brewcommand>
+if [[ $(command -v antigen) ]]; then
+	antigen bundle aubreypwd/zsh-plugin-require@1.0.1
+	antigen apply
+
+	require "{BREWCOMMAND}" "brew reinstall {BREWCOMMAND}" "brew"
 fi
 
-if ! [[ -x $(command -v <brewcommand>) ]]; then
-	echo "Please install <brewcommand>:";
-	echo "\tHomebrew: brew install <brewcommand>"
+if ! [[ -x $(command -v {BREWCOMMAND}) ]]; then
+	echo "Please install {BREWCOMMAND} to use {NAME}."
+	return;
 fi
 
 ###
- # NAME
+ #
  #
  # @since 1.0.0
  ##
