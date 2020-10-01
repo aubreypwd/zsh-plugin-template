@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 ###
- # My Plugin
+ # NAME
  #
  # @since 1.0.0
  ##

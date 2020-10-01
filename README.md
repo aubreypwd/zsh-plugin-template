@@ -1,18 +1,24 @@
-# My Plugin
+# ``
 
-Simple description of your plugin.
+Description
 
 ## Usage
 
 ```bash
 ```
 
+## Requires
+
+- `...`<sup>*</sup>
+
+<sup>*</sup> If using [homebrew](https://brew.sh) on macOS, these will automatically be installed.
+
 ## Install
 
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle github-username/my-plugin@1.0.0
+antigen bundle aubreypwd/zsh-plugin-NAME@1.0.0
 ```
 
 ## Development
@@ -20,10 +26,10 @@ antigen bundle github-username/my-plugin@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle github-username/my-plugin
+antigen bundle aubreypwd/zsh-plugin-NAME
 ```
 
-...and contribute upstream by working in `$HOME/.antigen/bundles/github-username/plugin-slug`.
+...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-NAME`.
 
 ---
 
@@ -32,12 +38,3 @@ antigen bundle github-username/my-plugin
 ### 1.0.0
 
 - First version
-
----
-
-## Delete Me
-
-# - [ ] Rename `plugin-slug.plugin.zsh` to match your repo, e.g. `aubreypwd/my-plugin` becomes `my-plugin.plugin.zsh`
-# - [ ] Re-write `README.md` and replace `plugin-slug` with your repo name and `github-username` with your Github username
-
-That's it!
