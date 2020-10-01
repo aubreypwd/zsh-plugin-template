@@ -2,6 +2,11 @@
 
 Simple description of your plugin.
 
+## Usage
+
+```bash
+```
+
 ## Install
 
 Using [antigen](https://github.com/zsh-users/antigen):
