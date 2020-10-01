@@ -1,4 +1,4 @@
-# `{$command}`
+# My Plugin
 
 Simple description of your plugin.
 
@@ -7,7 +7,7 @@ Simple description of your plugin.
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle {$plugin-slug}@1.0.0
+antigen bundle github-username/{$plugin-slug}@1.0.0
 ```
 
 ## Development
@@ -15,7 +15,7 @@ antigen bundle {$plugin-slug}@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle {$plugin-slug}
+antigen bundle github-username/{$plugin-slug}
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/{$plugin-slug}`.
