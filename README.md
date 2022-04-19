@@ -26,7 +26,7 @@ antigen bundle aubreypwd/zsh-plugin-NAME@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-NAME
+antigen bundle ssh://git@github.com/aubreypwd/zsh-plugin-NAME
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-NAME`.
